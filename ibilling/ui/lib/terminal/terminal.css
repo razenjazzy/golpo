@@ -1,0 +1,228 @@
+/**********************
+ debug scr
+**********************/
+#debugScr *{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding:0px;
+    margin:0px;
+}
+#debugScr{
+    top:-100%;
+    z-index: 10;
+    display:none;
+    margin:0px;
+    padding:10px;
+    color: #0F0;
+    background-color:#000000;
+    background-color: rgba(0,0,0,0.8);
+    overflow:hidden;
+    font-family: 'monospace','Lucida Console','Lucida Sans Unicode','Verdana';
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+    -moz-box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+    transition:.2s;
+}
+#debugScr.debuging{
+    top:0%;
+}
+#debugScr.fixed{
+    position:fixed;
+    _position:absolute;
+}
+#debugScr.small{
+    /* right:0px; */
+    left: 65%;
+    width:30%;
+    height:90%;
+    -webkit-border-radius: 0px 0px 3px 3px;
+    -moz-border-radius: 0px 0px 3px 3px;
+}
+#debugScr.full
+{
+    left:5%;
+    width:90%;
+    height:90%;
+}
+#debugScr table{
+    border: 1px #050 dashed;
+    padding:0px;
+    margin:0px;
+    table-layout:fixed;
+}
+#debugScr .dsheader
+{
+    font-family: 'Impact';
+    font-size: 2em;
+    font-weight: normal;
+    color:#090;
+    margin:10px;
+    padding:0px;
+    line-height: normal;
+}
+#debugScr.small .dsheader
+{
+    font-size:1em;
+}
+#debugScr #terminal{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    font-family: 'monospace','Lucida Console','Lucida Sans Unicode','Verdana';
+    unicode-bidi: embed;
+    white-space: pre;
+    color: #58bf1d;
+    /* white-space:nowrap; */
+    border-style:none;
+    resize: none;
+    outline:none;
+    -moz-appearance:none; /* firefox outline remove */
+    overflow:auto;
+    /* CSS3 properties */
+    -webkit-text-shadow: 0px 0px 3px rgba(88,191,29,0.5);
+    -moz-text-shadow: 0px 0px 3px rgba(88,191,29,0.5);
+    -ms-text-shadow: 0px 0px 3px rgba(88,191,29,0.5);
+    -o-text-shadow: 0px 0px 3px rgba(88,191,29,0.5);
+    text-shadow: 0px 0px 3px rgba(88,191,29,0.5);
+}
+#debugScr.small #terminal{
+    width:100%;
+    font-size:0.5em;
+    letter-spacing:0;
+
+    overflow:scroll;
+}
+#debugScr #terminal .warning
+{
+    color:#fc2;
+}
+#debugScr #terminal .error
+{
+    color:#f20;
+}
+#debugScr #terminal a
+{
+    color:#fff;
+}
+#debugScr #terminal a:hover
+{
+    color:#0ff;
+}
+#debugScr #terminal::-webkit-scrollbar-track,
+#debugScr #terminal::-webkit-scrollbar-button,
+#debugScr #terminal::-webkit-scrollbar-track-piece
+{
+    background-color: transparent;
+}
+#debugScr #terminal::-webkit-scrollbar
+{
+    width: 10px;
+    height: 5px;
+    background-color: transparent;
+
+}
+#debugScr #terminal::-webkit-scrollbar-thumb
+{
+    background-color: transparent;
+    border-top:			none;
+    border-bottom:		3px solid #58bf1d;
+    border-left:		3px solid #58bf1d;
+    border-right:		3px solid #58bf1d;
+
+}
+#debugScr #terminal::-webkit-scrollbar-thumb:vertical
+{
+    border-top:			3px solid #58bf1d;
+    border-bottom:		3px solid #58bf1d;
+    border-left:		none;
+    border-right:		3px solid #58bf1d;
+}
+#debugScr .inputArea{
+    position:relative;
+    color: #58bf1d;
+    border-top: 1px #009900 dashed;
+}
+#debugScr .inputArea:after{
+    content:" > ";
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+    font-family: 'Impact','Verdana';
+}
+#debugScr .inputArea input{
+    display:inline;
+    width:1em;
+    overflow:hidden;
+    opacity:0;
+}
+#debugScr .inputArea ::-webkit-input-placeholder {
+    color: #006600;
+    padding-left:10px;
+    font-family: 'monospace','Lucida Console','Lucida Sans Unicode','Verdana';
+}
+#debugScr .inputArea .fakeInput{
+    letter-spacing: 0.05em;
+    font-size:18px;
+    color: #58bf1d;
+    margin-right:5px;
+    padding-left:35px;
+    width:auto;
+    /* CSS3 properties */
+    -webkit-text-shadow:0 0 3px rgba(88,191,29,0.5);
+    -moz-text-shadow: 0 0 3px rgba(88,191,29,0.5);
+    -ms-text-shadow: 0 0 3px rgba(88,191,29,0.5);
+    -o-text-shadow: 0 0 3px rgba(88,191,29,0.5);
+    text-shadow: 0 0 3px rgba(88,191,29,0.5);
+}
+#debugScr .inputArea .blinkCursor{
+    font-size:30px;
+    text-decoration: blink;
+    -webkit-animation: blinkMe 1s infinite; /* Chrome, Safari 5+ */
+    -moz-animation: blinkMe 1s infinite; /* Firefox 5-15 */
+    -ms-animation: blinkMe 1s infinite;
+    -o-animation: blinkMe 1s infinite; /* Opera 12.00 */
+    animation: blinkMe 1s infinite; /* Chrome, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+@-webkit-keyframes blinkMe{ to{opacity: .0;} }
+@-moz-keyframes blinkMe{ to{opacity: .0;} }
+@-ms-keyframes blinkMe{ to{opacity: .0;} }
+@-o-keyframes blinkMe{ to{opacity: .0;} }
+@keyframes blinkMe{ to{opacity: .0;} }
+
+@media only screen and (max-width : 480px) {
+    #debugScr.full
+    {
+        left:0;
+        width:100%;
+        height:90%;
+    }
+    #debugScr.small
+    {
+        left:0;
+        width:100%;
+        height:50%;
+    }
+    #debugScr .dsheader
+    {
+        display:none;
+    }
+    #debugScr #terminal{
+        font-size:0.5em;
+        letter-spacing:0;
+        white-space:pre-wrap;		/* css-3 */
+        white-space:-moz-pre-wrap;	/* Mozilla, since 1999 */
+        white-space:-o-pre-wrap;	/* Opera 7 */
+        word-wrap:break-word;		/* Internet Explorer 5.5+ */
+        overflow:scroll;
+    }
+}
