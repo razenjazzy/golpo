@@ -1,0 +1,208 @@
+.instagram-analytics .wrap-analytics{
+    max-width: 1200px;
+    margin: 80px auto 0;
+}
+
+.instagram-analytics .headline{
+    border-bottom: 1px solid #f4f4f4;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: -25px;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    background: #fff;
+}   
+
+
+.instagram-analytics .profile-info{
+    position: relative;
+    margin: 0 auto 25px;
+    min-height: 151px;
+}
+
+.instagram-analytics .profile-info .avatar{
+    position: absolute;
+    left: 0;
+}
+
+.instagram-analytics .profile-info .avatar img{ 
+    border-radius: 100px;
+}
+
+.instagram-analytics .profile-info .info{
+    margin-left: 250px;
+}
+
+.instagram-analytics .profile-info .info .name{
+    font-size: 28px;
+    line-height: 32px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #262626;
+    font-weight: 300;
+}
+
+.instagram-analytics .profile-info .info .stats{
+    margin: 20px 0;
+}
+
+.instagram-analytics .profile-info .info .stats li{
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+
+.instagram-analytics .profile-info .info .stats li span{
+    font-weight: bold;
+}
+
+
+.instagram-analytics .profile-info .info .fullname{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.instagram-analytics .profile-info .info .description{
+    margin-bottom: 5px;
+    color: #696969;
+}
+
+.instagram-analytics .profile-info .info .website a{
+    color: #003569;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.instagram-analytics .box-sumary{
+    border-left: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.instagram-analytics .box-sumary li{
+    float: left;
+    width: 33.333333%;
+    position: relative;
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #7b8994;
+}
+
+.instagram-analytics .box-sumary li div{
+    border-right: 1px solid #f5f5f5;
+    padding: 15px;
+}
+
+.instagram-analytics .box-sumary li span{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: inherit;
+    color: #000;
+}
+
+.instagram-analytics .box-head{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.instagram-analytics .box-head .title{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.instagram-analytics .title-chart{
+    margin: 10px 15px 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.instagram-analytics iframe{
+    width: 100%!important;
+}
+
+.instagram-analytics .table_sumary table{
+    margin-top: 20px;
+}
+
+.instagram-analytics .table_sumary table .text-success{
+    color: #71d473;
+}
+
+.instagram-analytics .table_sumary table .text-danger{
+    color: #e64945;
+}
+
+.instagram-analytics .table_sumary table thead{
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+.instagram-analytics .table_sumary table tfoot{
+    background: #f7f7f7;
+    font-weight: bold;
+}
+
+.instagram-analytics .table_sumary table td{
+    padding: 15px 8px!important;
+}
+
+.instagram-analytics .owl-carousel .item{
+    margin: 0px 15px;
+}
+
+.instagram-analytics .owl-nav button{
+    font-size: 130px!important;
+    color: #fd397a!important;
+    position: absolute;
+    top: calc(50% - 111px);
+}
+
+.instagram-analytics .owl-nav button.owl-prev{
+    left: 20px;
+}
+
+.instagram-analytics .owl-nav button.owl-next{
+    right: 20px;
+}
+.instagram-analytics .summary-list-group{
+    font-size: 16px;
+    color: #a0a0a0;
+    padding-left: 0;
+}
+
+.instagram-analytics .summary-list-group a{
+    color: #a0a0a0;
+}
+
+.instagram-analytics .summary-list-group a:hover{
+    text-decoration: underline;
+    color: #fd397a;
+}
+
+.instagram-analytics .summary-list-group .num{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fd397a;
+    border: 1px solid #ffefef;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 10px;
+}

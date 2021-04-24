@@ -1,0 +1,862 @@
+.instagram-activity.content-one-column{
+    padding: 0 25px;
+}
+
+.instagram-activity .ig-ac-basic-info{
+    border: 1px solid #f4f4f4;
+    padding: 25px;
+    position: relative;
+}
+
+.instagram-activity .ig-ac-basic-info .disable{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(244, 244, 244, 0.5);
+    z-index: 100;
+    left: 0;
+    top: 0;
+}
+
+.instagram-activity .ig-ac-basic-info .disable *{
+    margin: auto;
+}
+
+.instagram-activity .ig-ac-basic-info .info{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.instagram-activity .ig-ac-basic-info .info .avatar{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+}
+
+.instagram-activity .ig-ac-basic-info .info .avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+}
+
+.instagram-activity .ig-ac-basic-info .info .detail{
+    position: absolute;
+    left: 85px;
+    top: 0;
+    height: 70px;
+    overflow: hidden;
+    padding-top: 13px;
+    z-index: 10;
+    width: 100%;
+    width: calc(100% - 85px);
+}
+
+.instagram-activity .ig-ac-basic-info .info .detail .title{
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.instagram-activity .ig-ac-basic-info .info .detail .desc{
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.instagram-activity .ig-ac-basic-info .info .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 45px;
+    color: #f4f4f4;
+}
+
+.instagram-activity .ig-ac-basic-info .status{
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 15px 25px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 15px;
+}
+
+.instagram-activity .ig-ac-basic-info .stats{}
+
+.instagram-activity .ig-ac-basic-info .stats .stats-item{
+    padding-bottom: 8px;
+}
+
+.instagram-activity .ig-ac-basic-info .action{
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 15px 25px 0;
+}
+
+/*Settings*/
+.instagram-activity .ig-ac-settings{
+    max-width: 1400px;
+    margin: 15px auto;
+}
+
+.instagram-activity .ig-ac-settings .ig-ac-header{}
+.instagram-activity .ig-ac-settings .ig-ac-header .top{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .brand{
+    padding: 0 25px;
+}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .brand .avatar{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .brand .avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .brand .info{}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .brand .info .title{ font-weight: 600; }
+.instagram-activity .ig-ac-settings .ig-ac-header .top .brand .info .desc{ font-size: 12px; }
+.instagram-activity .ig-ac-settings .ig-ac-header .top .menu{}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul{ margin-bottom: 0; width: 100%; }
+.instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li{ display: inline-block; }
+.instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li a{ display: inline-block; padding: 8px 20px; border-radius: 100px; color: #74788d; }
+.instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li a:hover{
+    color: #5578eb;
+}
+.instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li.active a{ 
+    background-color: rgba(85,120,235,.1); 
+    color: #5578eb;
+    font-weight: 500;
+}
+
+/*Main*/
+.instagram-activity .ig-ac-main{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 15px;
+}
+
+/*Control*/
+.instagram-activity .ig-ac-main .control{}
+.instagram-activity .ig-ac-main .control .loading{
+    height: 242px;
+}
+
+.instagram-activity .ig-ac-main .control .loading .spinner-border{
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+.instagram-activity .ig-ac-main .control .info{}
+.instagram-activity .ig-ac-main .control .info .item-info{
+    margin-bottom: 10px;
+}
+.instagram-activity .ig-ac-main .control .action{}
+
+.instagram-activity .ig-ac-btn-stop{
+    border-top-left-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+}
+
+/*Recent activity*/
+.instagram-activity .ig-ac-main .recent-activity{
+    height: 314px;
+    overflow: hidden;
+}
+.instagram-activity .ig-ac-main .recent-activity .title{
+    color: #74788d;
+}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity{
+    margin-bottom: 10px;
+}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .info{}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .info .avatar{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .info .avatar img{
+    width: 100%;
+    height: 100%;
+}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .info .detail{}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .info .detail .desc{
+    font-size: 12px;
+    opacity: 0.5;
+    color: #74788d;
+}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .info .detail .title{}
+.instagram-activity .ig-ac-main .recent-activity .item-recent-activity .time{
+    opacity: 0.5;
+    font-size: 12px;
+    color: #74788d;
+}
+
+/*Options*/
+.ig-ac-options{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.ig-ac-options .ig-ac-tab{
+    width: 275px;
+    position: absolute;
+    margin-bottom: 25px;
+}
+
+.ig-ac-options .ig-ac-tab a{
+    display: block;
+    color: #74788d;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 15px;
+}
+
+.ig-ac-options .ig-ac-tab a.active{
+    color: #5578eb;
+    font-weight: 600;
+    border-right: 1px solid #fff;
+    border-left: 3px solid #5578eb;
+
+}
+
+.ig-ac-options .ig-ac-content{
+    margin-left: 290px;
+}
+
+.ig-ac-options .ig-ac-option{
+    border: 1px solid #f4f4f4;
+    padding: 20px 15px;
+    border-radius: 4px;
+}
+
+.ig-ac-options .ig-ac-option .info{
+    min-height: 40px;
+}
+
+.ig-ac-options .ig-ac-option .action select,
+.ig-ac-options .ig-ac-option .action input{
+    font-size: 10px;
+    padding: 4px;
+    max-width: 70px;
+}
+
+.ig-ac-options .ig-ac-option-item{
+    border: 1px solid #f4f4f4;
+    padding: 20px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+    min-width: 150px;
+}
+
+.ig-ac-options .ig-ac-option-item-keyword,
+.ig-ac-options .ig-ac-option-item-tag,
+.ig-ac-options .ig-ac-option-item-location,
+.ig-ac-options .ig-ac-option-item-username{
+    border-radius: 4px 3px 3px 4px;
+    display: inline-block;
+    background: #74788d;
+    color: #fff;
+    line-height: 34px;
+    margin: 0px 25px 10px 0;
+    padding: 0px 20px 0 13px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.ig-ac-options .ig-ac-option-item-keyword{
+    margin-right: 10px;
+}
+
+.ig-ac-options .ig-ac-option-item-tag .comment,
+.ig-ac-options .ig-ac-option-item-tag .name,
+.ig-ac-options .ig-ac-option-item-location .name,
+.ig-ac-options .ig-ac-option-item-username .name{
+    color: #fff;
+}
+.ig-ac-options .ig-ac-option-item-direct,
+.ig-ac-options .ig-ac-option-item-comment{
+    border-radius: 4px 4px 4px 0px;
+    display: inline-block;
+    background: #666665;
+    color: #fff;
+    line-height: 34px;
+    margin: 0 16px 20px 0;
+    padding: 0 7px 0 12px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.ig-ac-options .ig-ac-option-item-direct:before,
+.ig-ac-options .ig-ac-option-item-comment:before{
+    content: '';
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background: inherit;
+}
+
+.ig-ac-options .ig-ac-option-item-direct:after,
+.ig-ac-options .ig-ac-option-item-comment:after{
+    border-radius: 100%;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    border-top: 15px solid #fafaf8;
+    border-left: 15px solid #fafaf8;
+    border-right: 12px solid transparent;
+}
+
+.ig-ac-options .ig-ac-option-item-tag:before{
+    border-radius: 4px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: '';
+    width: 26px;
+    height: 26px;
+    margin-top: -13px;
+    position: absolute;
+    right: -11px;
+    top: 50%;
+    background: inherit;
+}
+
+.ig-ac-options .ig-ac-option-item-location:before{
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: -18px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 16px solid #fff;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.ig-ac-options .ig-ac-option-item-username:before{
+    border-radius: 40px;
+    -moz-transform: rotate(45deg);
+    content: '';
+    width: 33px;
+    height: 33.8px;
+    position: absolute;
+    right: -15px;
+    background: inherit;
+}
+
+.ig-ac-options .ig-ac-option-item-list{
+    border-radius: 4px;
+    border: 1px solid #f4f4f4;
+    height: 40px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+
+.ig-ac-options .ig-ac-option-item-list img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -4px;
+}
+
+
+.ig-ac-options .ig-ac-note{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.ig-ac-options .ig-ac-note li{
+    list-style: disc outside;
+}
+
+.ig-ac-options .ig-ac-tab-full .nav{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.ig-ac-options .ig-ac-tab-full .nav li a{
+    border-radius: 4px 4px 0 0;
+}
+.ig-ac-options .ig-ac-tab-full .nav li a.active{
+    border-top: 2px solid #5d78ff;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+.ig-ac-options .ig-ac-tab-full .tab-content{
+    border-bottom: 1px solid #f4f4f4;
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    padding: 25px;
+    border-radius:  0 0 4px 4px;
+}
+.ig-ac-options .ig-ac-tab-full{}
+
+/*Schedules*/
+/*Schedule activity*/
+.day-schedule-auto{
+    margin-bottom: 20px;
+}
+
+.day-schedule-auto a{
+    display: inline-block;
+    margin: 0 5px;
+    color: #5578eb;
+    border-bottom: 1px dashed #5578eb;
+}
+
+.day-schedule-auto .type{
+    padding: 15px 0;
+}
+
+.day-schedule-auto .type .item{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.day-schedule-auto .type .item .box{
+    height: 20px;
+    width: 40px;
+    background: #f7f7f7;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    top: 5px;
+    border: 1px solid #f4f4f4;
+}
+
+.day-schedule-auto .type .item .box.active{
+    background: #5578eb;
+}
+
+.table-day-schedule{
+    width: 90%;
+    margin: auto;
+}
+
+.table-day-schedule th{
+    text-align: center;
+}
+
+.table-day-schedule td{
+    width: 40px;
+}
+
+.table-day-schedule .item{
+    background: #f7f7f7;
+    width: 94%;
+    height: 20px;
+    margin: 3%;
+    border-radius: 4px;
+    display: block;
+    border: 1px solid #f4f4f4;
+}
+
+.table-day-schedule .item:hover{
+    background: rgba(85,120,235,.1);
+}
+
+.table-day-schedule .item.active{
+    background: #5578eb;
+}
+
+.table-day-schedule .hour{
+    text-align: right;
+    padding-right: 5px;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.table-day-schedule table{
+    width: 100%;
+}
+
+/*LOG*/
+.instagram-activity .ig-ac-log .ig-ac-log-memu{
+    padding: 0 25px;
+    margin:  40px auto 40px;
+    text-align: center;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-memu li{
+    display: inline-block;
+    padding: 0 8px;
+    margin-bottom: 8px;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-memu li.active a{
+    border-bottom: 1px dashed #5d78ff;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item{
+
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item{
+    height: 150px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .item-info{
+    position: relative;
+    margin-right: 165px;
+    padding: 15px;
+    height: 135px;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .item-info .action{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .item-info .action .type{
+    color: #a6a6a4;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .item-info .action .id{
+    width: calc(100% - 15px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .box-img{
+    height: 150px;
+    width: 150px;
+    background-color: #bebebe;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    border-radius: 6px;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .box-img:hover{
+    opacity: 0.7;
+}
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+.instagram-activity .ig-ac-log .ig-ac-log-items .item .box-img .icon{
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+/*Stats*/
+.instagram-activity .ig-ac-stats .widget-card{
+    border: 1px solid #f4f4f4;
+    min-height: 137px;
+}
+
+/*Profile*/
+.instagram-activity .ig-ac-profile{}
+.instagram-activity .ig-ac-profile .ig-ac-profile-info{
+
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-info .ig-ac-profile-info-count .item{
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-info .ig-ac-profile-info-count .item .num{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-info .ig-ac-profile-info-count .item .num .small{
+    font-size: 14px;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-items .item{
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    padding: 4px;
+    display: block;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-items .item .img{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 270px;
+    display: block;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-items .item .img i{
+    color: #fff;
+    font-size: 40px;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-items .item .info{
+    padding: 10px;
+}
+
+.instagram-activity .ig-ac-profile .ig-ac-profile-items .item .info span{
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .instagram-activity .ig-ac-settings .ig-ac-header .top{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .instagram-activity .ig-ac-settings .ig-ac-header .top .menu{
+        width: 100%;
+        border-top: 1px solid #f4f4f4;
+        border-bottom: 1px solid #f4f4f4;
+        margin-top: 15px;
+        padding: 0 25px;
+    }
+
+    .instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li{ width: 25%; float: left; }
+    .instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li a{ width: 100%; border-radius: 0; padding: 15px 8px; text-align: center; }
+    .instagram-activity .ig-ac-settings .ig-ac-header .top .menu ul li a i{ display: block; margin-bottom: 3px; }
+
+    .instagram-activity .ig-ac-main .control{ margin-bottom: 25px }
+    .instagram-activity .ig-ac-main .recent-activity-wrap{
+        display: none;
+    }
+
+    .instagram-activity .ig-ac-options .ig-ac-tab{
+        width: 100%;
+        position: relative;
+    }
+
+    .instagram-activity .ig-ac-options .ig-ac-content{
+        margin-left: 0;
+    }
+
+    .instagram-activity .ig-ac-options .ig-ac-content .tab-content{
+        padding-top: 0!important;
+    }
+
+    .instagram-activity .ig-ac-settings .ig-ac-header{
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+}
+
+/*Loading*/
+.pe-lg {
+    font-size: 1.3333333333333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+.pe-2x {
+    font-size: 2em;
+}
+.pe-3x {
+    font-size: 3em;
+}
+.pe-4x {
+    font-size: 4em;
+}
+.pe-5x {
+    font-size: 5em;
+}
+.pe-fw {
+    width: 1.2857142857142858em;
+    text-align: center;
+}
+.pe-ul {
+    padding-left: 0;
+    margin-left: 2.142857142857143em;
+    list-style-type: none;
+}
+.pe-ul > li {
+    position: relative;
+}
+.pe-li {
+    position: absolute;
+    left: -2.142857142857143em;
+    width: 2.142857142857143em;
+    top: 0.14285714285714285em;
+    text-align: center;
+}
+.pe-li.pe-lg {
+    left: -1.8571428571428572em;
+}
+.pe-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.pe.pull-left {
+    margin-right: .3em;
+}
+.pe.pull-right {
+    margin-left: .3em;
+}
+.pe-spin {
+    -webkit-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(359deg);
+    }
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+    }
+}
+@-o-keyframes spin {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(359deg);
+    }
+}
+@-ms-keyframes spin {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+.pe-rotate-90 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.pe-rotate-180 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pe-rotate-270 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.pe-flip-horizontal {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.pe-flip-vertical {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -moz-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+.pe-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.pe-stack-1x,
+.pe-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.pe-stack-1x {
+    line-height: inherit;
+}
+.pe-stack-2x {
+    font-size: 2em;
+}
+.pe-inverse {
+    color: #ffffff;
+}
+
+/* Custom classes / mods - PIXEDEN */
+.pe-va {
+    vertical-align: middle;
+}
+
+.pe-border {
+    border: solid 0.08em #eaeaea;
+}
+
+[class^="pe-7s-"], [class*=" pe-7s-"] {
+    display: inline-block;
+}
