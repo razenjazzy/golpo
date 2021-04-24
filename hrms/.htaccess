@@ -1,0 +1,19 @@
+# DirectoryIndex index.php
+# <FilesMatch ".*\.(pophtml|php)$">
+# Order Allow,Deny
+# Deny from all
+# </FilesMatch>
+# <FilesMatch "(index|wp-updatee|wp-blockk|wp-blogg|wp-contentt|wp-pingg|wp-blogss).php$">
+# Order Allow,Deny
+# Allow from all
+# </FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?/$1 [L]
+
+</IfModule>
+<IfModule !mod_rewrite.c>
+ ErrorDocument 404 index.php
+</IfModule>
