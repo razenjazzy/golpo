@@ -1,0 +1,1 @@
+{"is_active":"d448906c844d7337dd4fb0a7f50dc068","purchase_code":"NullJungle.com","item_name":"XeroChat - Best Multichannel Marketing Application (SaaS Platform)","buy_at":"2020-06-02T12:55:51+12:00","licence_type":"Extended License","domain":"chat.golpocom.com","checking_date":"2020-12-06"}
